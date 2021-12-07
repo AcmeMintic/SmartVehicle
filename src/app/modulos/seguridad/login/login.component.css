@@ -16,13 +16,13 @@
   .input-field input[type=text]:focus + label,
   .input-field input[type=email]:focus + label,
   .input-field input[type=password]:focus + label {
-    color: #000000;
+    color: #e9590b;
   }
 
   .input-field input[type=date]:focus,
   .input-field input[type=text]:focus,
   .input-field input[type=email]:focus,
   .input-field input[type=password]:focus {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #e9590b;
     box-shadow: none;
   }

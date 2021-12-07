@@ -10,6 +10,9 @@ import { ErrorComponent } from './assets/error/error.component';
 import { CreateComponent } from './modulos/solicitud/create/create.component';
 import { GetComponent } from './modulos/solicitud/get/get.component';
 import { EditComponent } from './modulos/solicitud/edit/edit.component';
+import { HomeComponent } from './assets/home/home.component';
+import { ContactoComponent } from './assets/contacto/contacto.component';
+import { SolicitudComponent } from './assets/solicitud/solicitud.component';
 
 
 @NgModule({
@@ -22,6 +25,9 @@ import { EditComponent } from './modulos/solicitud/edit/edit.component';
     CreateComponent,
     GetComponent,
     EditComponent,
+    HomeComponent,
+    ContactoComponent,
+    SolicitudComponent,
   ],
   imports: [
     BrowserModule,
